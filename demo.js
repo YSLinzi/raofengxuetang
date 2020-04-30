@@ -32,7 +32,7 @@ window.onload = function() {
         }
         //更换图片
         //"img/1.jpg"
-        jsImg.src = "../web/images/" + currentPage + ".jpg";
+        jsImg.src = "images/" + currentPage + ".jpg";
         //将所有的小圆点颜色清空
         for (var i = 0; i < jsLis.length; i++) {
             jsLis[i].style.backgroundColor = "#aaa";
