@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.list {
+    height: 120px;
+    width: 100%;
+    /* background-color: yellow; */
+    position: relative;
+}
+
+.logo img {
+    width: 80px;
+    height: 70px;
+}
+
+.searchbox {
+    width: 20%;
+    position: absolute;
+    margin-left: 800px;
+    top: 15px;
+}
+
+.searchbox input {
+    float: left;
+    border: 1px solid rgb(148, 145, 145);
+    box-sizing: border-box;
+    padding-left: 10px;
+    width: 200px;
+    height: 30px;
+}
+
+.searchbox button {
+    width: 52px;
+    float: right;
+    height: 30px;
+    border: solid 1px transparent;
+    color: white;
+}
+
+.searchbox button img {
+    margin-top: 2px;
+    width: 20px;
+    height: 20px;
+}
+
+.header-right {
+    position: absolute;
+    top: 18px;
+    font-size: 16px;
+    color: gray;
+    left: 1100px;
+}
+
+.header-right text {
+    display: inline-block;
+    width: 50px;
+    margin: 0 10px;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(140, 211, 240);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 20px;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    padding-top: 2px;
+}
+
+#loopDiv {
+    width: 98%;
+    height: 420px;
+    top: 6px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#list {
+    list-style: none;
+    position: absolute;
+    bottom: 10px;
+    left: 520px;
+}
+
+#list li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background: #aaa;
+    margin-right: 10px;
+}
+
+.chooseBut {
+    width: 50px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+    display: none;
+}
+
+#left {
+    position: absolute;
+    left: 0px;
+    top: 130px;
+}
+
+#right {
+    position: absolute;
+    right: 0px;
+    top: 130px;
+}
+
+.courselist {
+    height: 240px;
+    margin: 0 10px;
+}
+
+.course {
+    background-color: white;
+    height: 300px;
+}
+
+.courselist-header {
+    display: inline-block;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.coursecard {
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 220px;
+    float: left;
+    padding-top: 15px;
+    list-style-type: none;
+    margin: 0 13px;
+}
+
+.headBox {
+    color: #fff;
+    padding: 0px;
+    margin-top: -14px;
+    font-size: 15px;
+    height: 130px;
+}
+
+.headBox img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.headBox img:hover {
+    transform: scale(1.05);
+}
+
+.bodyBox {
+    padding: 10px;
+}
+
+.bodyBox .text1 {
+    margin-left: 2px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.bodyBox .text1 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.bodyBox .text2 {
+    margin-top: 20px;
+    margin-left: 2px;
+    font-size: 14px;
+    color: gray;
+}
+
+.trip {
+    background-color: white;
+    height: 300px;
+}
+
+.works {
+    background-color: white;
+    height: 400px;
+}
+
+.stu-works {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.stu-works li {
+    list-style-type: none;
+    flex: 1;
+}
+
+.stu-works li img {
+    height: 200px;
+    width: 300px;
+    margin-left: 10px;
+}
+
+footer {
+    margin-top: -60px;
+    background-color: rgba(209, 209, 209, 0.918);
+    height: 100px;
+}
+
+footer p {
+    padding-left: 62px;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.footer-left {
+    display: flex;
+    width: 700px;
+}
+
+.footer-img {
+    margin-right: 60px;
+    text-align: right;
+    margin-top: -30px;
+}
+
+.footer-img img {
+    width: 60px;
+    height: 60px;
+}
